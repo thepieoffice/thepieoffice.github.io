@@ -1,0 +1,21 @@
+{
+  "name": "pieoffice",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Eoghan Crowley <eoghanscrowley@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^4.1.1"
+  }
+}
