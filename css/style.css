@@ -68,9 +68,10 @@ body {
 }
 .video-title {
   margin: 0 auto;
-  width: 60%;
   font-size: 25px;
   background-color: rgb(255,54,87);
+  display: inline-block;
+  padding: 0 6px;
 }
 .description-text {
   font-size: 13px;
