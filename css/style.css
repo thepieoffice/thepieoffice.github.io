@@ -47,6 +47,7 @@ body {
   cursor: pointer;
 }
 .video-container {
+  background-color: rgb(20,18,19);
   position: absolute;
   bottom: 0;
   width: 100%;

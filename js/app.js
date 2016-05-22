@@ -49,7 +49,7 @@ $('.to-video-2').click(function() {
     $('.video-container-2').show().animateCss('slideInUp');
 });
 
-$('.to-contact-page').click(function(){
+$('.to-video-1').click(function(){
     $('.video-container-2').addClass('animated slideOutDown').one(animationEnd, function() {
         $('.video-container-2').removeClass('animated slideOutDown');
         $('.video-container-2').hide();
