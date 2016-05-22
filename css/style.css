@@ -4,6 +4,13 @@ body {
   font-family: helvetica, arial, sans-serif;
   color: white;
 }
+.disable-selection {
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
 .page-container {
   position: absolute;
   height: 100%;
@@ -24,18 +31,19 @@ body {
 }
 #email-text {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
   width: 300px;
   top: 50%;
   left: 50%;
-  margin-top: -6px;
+  margin-top: -12px;
   margin-left: -150px;
   text-align: center;
   text-decoration: none;
 }
 #email-text:hover {
   color: rgb(255,54,87);
+  cursor: default;
 }
 .to-contact-page {
   font-size: 20px;
@@ -65,7 +73,7 @@ body {
   font-size: 50px;
   top: 50%;
   left: 50%;
-  margin-top: -15px;
+  margin-top: -20px;
   margin-left: -25px;
 }
 .fa-instagram {
@@ -74,7 +82,7 @@ body {
   font-size: 50px;
   top: 50%;
   left: 35%;
-  margin-top: -15px;
+  margin-top: -20px;
   margin-left: -25px;
 }
 .fa-twitter {
@@ -83,7 +91,7 @@ body {
   font-size: 50px;
   top: 50%;
   left: 65%;
-  margin-top: -15px;
+  margin-top: -20px;
   margin-left: -25px;
 }
 .video-container {
