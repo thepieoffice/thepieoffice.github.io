@@ -18,10 +18,6 @@ $('#banner-pic').mouseenter(function(){
 	$(this).animateCss('shake');
 });
 
-$('#email-text').mouseenter(function(){
-    $(this).animateCss('bounce');
-});
-
 $('#banner-pic').click(function(){
 	$(this).addClass('animated hinge').one(animationEnd, function() {
         $(this).removeClass('animated hinge');
