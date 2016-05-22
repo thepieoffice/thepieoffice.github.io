@@ -139,6 +139,7 @@ body {
 @media (max-width: 800px) {
   .video {
     width: 100%;
+    height: 40%;
   }
   .video-description {
     margin-top: 35px;
