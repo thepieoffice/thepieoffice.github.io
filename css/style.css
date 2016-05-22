@@ -24,7 +24,7 @@ body {
 }
 #email-text {
   color: white;
-  font-size: 12px;
+  font-size: 30px;
   position: absolute;
   width: 300px;
   top: 50%;
@@ -36,10 +36,6 @@ body {
 }
 #email-text:hover {
   color: rgb(255,54,87);
-}
-#email-text:hover {
-  color: rgb(255,54,87);
-  cursor: pointer;
 }
 .to-contact-page {
   font-size: 20px;
