@@ -51,32 +51,28 @@ $('.back-from-contact').click(function(){
 
 $('.video-link').click(function() {
     $('#landing-page').addClass('animated slideOutUp').one(animationEnd, function() {
-        $('#landing-page').removeClass('animated slideOutUp');
-        $('#landing-page').hide();
+        $('#landing-page').removeClass('animated slideOutUp').hide();
     });
     $('.video-container-1').show().animateCss('slideInUp');
 });
 
 $('.to-landing-page').click(function(){
     $('.video-container-1').addClass('animated slideOutDown').one(animationEnd, function() {
-        $('.video-container-1').removeClass('animated slideOutDown');
-        $('.video-container-1').hide();
+        $('.video-container-1').removeClass('animated slideOutDown').hide();
     });
     $('#landing-page').show().animateCss('slideInDown');
 });
 
 $('.to-video-2').click(function() {
     $('.video-container-1').addClass('animated slideOutUp').one(animationEnd, function() {
-        $('.video-container-1').removeClass('animated slideOutUp');
-        $('.video-container-1').hide();
+        $('.video-container-1').removeClass('animated slideOutUp').hide();
     });
     $('.video-container-2').show().animateCss('slideInUp');
 });
 
 $('.to-video-1').click(function(){
     $('.video-container-2').addClass('animated slideOutDown').one(animationEnd, function() {
-        $('.video-container-2').removeClass('animated slideOutDown');
-        $('.video-container-2').hide();
+        $('.video-container-2').removeClass('animated slideOutDown').hide();
     });
     $('.video-container-1').show().animateCss('slideInDown');
 });
