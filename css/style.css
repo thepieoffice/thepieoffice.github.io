@@ -36,7 +36,7 @@ body {
   width: 300px;
   top: 50%;
   left: 50%;
-  margin-top: -10px;
+  margin-top: -11px;
   margin-left: -150px;
   text-align: center;
   text-decoration: none;
@@ -106,8 +106,8 @@ body {
   margin: 0 auto;
   margin-top: 80px;
   bottom: 0;
-  width: 900px;
-  height: 532px;
+  width: 800px;
+  height: 450px;
 }
 .video-description {
   margin: 0 auto;
