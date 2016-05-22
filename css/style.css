@@ -4,10 +4,14 @@ body {
   font-family: helvetica, arial, sans-serif;
   color: white;
 }
-#landing-page {
+.page-container {
   position: absolute;
   height: 100%;
   width: 100%;
+}
+.pink-hover:hover {
+  color: rgb(255,54,87);
+  cursor: pointer;
 }
 #banner-pic {
   position: absolute;
@@ -34,17 +38,51 @@ body {
   color: rgb(255,54,87);
   cursor: pointer;
 }
+.to-contact-page {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  margin-top: -8px;
+}
+
 .video-link {
-  color: white;
   font-size: 20px;
   position: absolute;
   bottom: 20px;
   left: 50%;
   margin-left: -10px;
 }
-.video-link:hover {
-  color: rgb(255,54,87);
-  cursor: pointer;
+.fa-angle-left {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 30px;
+  margin-top: -8px;
+}
+.fa-envelope-o {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  margin-top: -30px;
+}
+.fa-instagram {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 35%;
+  margin-top: -30px;
+}
+.fa-twitter {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  top: 50%;
+  left: 65%;
+  margin-top: -30px;
 }
 .video-container {
   background-color: rgb(20,18,19);
@@ -77,26 +115,17 @@ body {
   font-size: 13px;
 }
 .fa-angle-up {
-  color: white;
   position: absolute;
   font-size: 20px;
   top: 30px;
   left: 50%;
-  margin-left: -10px;
+  margin-left: -8px;
 }
-.fa-angle-up:hover {
-  color: rgb(255,54,87);
-  cursor: pointer;
-}
+
 .fa-angle-down {
-  color: white;
   position: absolute;
   font-size: 20px;
   bottom: 30px;
   left: 50%;
-  margin-left: -10px;
-}
-.fa-angle-down:hover {
-  color: rgb(255,54,87);
-  cursor: pointer;
+  margin-left: -8px;
 }
