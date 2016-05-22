@@ -69,11 +69,11 @@ body {
 .video-title {
   margin: 0 auto;
   width: 60%;
-  font-size: 28px;
+  font-size: 25px;
   background-color: rgb(255,54,87);
 }
 .description-text {
-  font-size: 12px;
+  font-size: 13px;
 }
 .fa-angle-up {
   color: white;
