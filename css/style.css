@@ -160,4 +160,22 @@ body {
     font-size: 20px;
     margin-left: -8px;
   }
+  .fa-envelope-o {
+    top: 50%;
+    left: 50%;
+    margin-top: -23px;
+    margin-left: -25px;
+  }
+  .fa-instagram {
+    top: 35%;
+    left: 50%;
+    margin-top: -23px;
+    margin-left: -25px;
+  }
+  .fa-twitter {
+    top: 65%;
+    left: 50%;
+    margin-top: -23px;
+    margin-left: -25px;
+  }
 }
