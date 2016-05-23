@@ -72,3 +72,10 @@ $('.to-video-1').click(function(){
     });
     $('.video-container-1').show().animateCss('slideInDown');
 });
+
+$('.to-contact-page-from-vids').click(function() {
+    $('.video-container-2').addClass('animated slideOutLeft').one(animationEnd, function() {
+        $('.video-container-2').removeClass('animated slideOutLeft').hide();
+    });
+    $('.contact-page').show().animateCss('slideInRight');
+});
