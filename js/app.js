@@ -1,3 +1,4 @@
+
 var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
 // Create custom jquery methods for animations and page transitions

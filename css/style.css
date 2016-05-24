@@ -33,6 +33,18 @@ body {
   height: 100%;
   text-align: center;
 }
+#langing-page {
+  display: none;
+}
+.contact-page {
+  display: none;
+}
+.video-container-1 {
+  /*display: none;*/
+}
+.video-container-2 {
+  display: none;
+}
 
 
 /* Landing Page */
@@ -107,9 +119,6 @@ body {
 
 
 /* Contact Page */
-.contact-page {
-  display: none;
-}
 .fa-envelope-o {
   color: white;
   position: absolute;
@@ -140,16 +149,9 @@ body {
 
 
 /* Video Styles */
-.video-container-1 {
-  display: none;
-}
-.video-container-2 {
-  display: none;
-}
 .video {
   margin: 0 auto;
   margin-top: 80px;
-  bottom: 0;
   width: 800px;
   height: 450px;
 }
@@ -173,17 +175,74 @@ body {
 
 
 /*====================================
-    Smaller window styles
+    IPHONE 6S landscape styles
 ======================================*/
-@media (max-width: 800px) {
+@media (max-width: 736px) {
   
   /* Buttons for page transitions */
+  .fa-angle-up {
+    top: 12px;
+  }
   .fa-angle-down {
-    position: relative;
-    left: 0;
-    margin-top: 20px;
+    bottom: 12px;
     font-size: 20px;
     margin-left: -8px;
+  }
+  .to-contact-page-from-vids {
+    
+  }
+
+
+  /* Video Styles */
+  .video {
+    margin-top: 50px;
+    width: 80%;
+    height: 40%;
+  }
+  .video-title {
+    font-size: 15px;
+  }
+  .video-description {
+    margin-top: 35px;
+    width: 80%;
+  }
+
+}
+
+
+
+/*====================================
+    Samsung Galaxy S5 portrait styles
+======================================*/
+@media (max-width: 640px) {
+  .video {
+    margin-top: 40px;
+    width: 80%;
+    height: 40%;
+    margin-bottom: -10px;
+  }
+}
+
+
+
+/*====================================
+    IPHONE 5 landscape styles
+======================================*/
+@media (max-width: 568px) {
+  .video {
+    margin-bottom: -20px;
+  }
+}
+
+
+/*====================================
+    IPHONE 6S portrait styles
+======================================*/
+@media (max-width: 414px) {
+
+  /* Buttons for page transitions */
+  .to-contact-page-from-vids {
+    display: none !important;
   }
 
 
@@ -198,37 +257,14 @@ body {
     top: 35%;
     left: 50%;
     margin-top: -23px;
-    margin-left: -25px;
+    margin-left: -22px;
   }
   .fa-twitter {
     top: 65%;
     left: 50%;
     margin-top: -23px;
-    margin-left: -25px;
+    margin-left: -23px;
   }
-
-
-  /* Video Styles */
-  .video {
-    width: 100%;
-    height: 40%;
-  }
-  .video-title {
-    font-size: 15px;
-  }
-  .video-description {
-    margin-top: 35px;
-    width: 80%;
-  }
-
-}
-
-
-/*====================================
-    IPHONE 6S portrait styles
-======================================*/
-@media (max-width: 414px) {
-
 }
 
 
@@ -241,7 +277,7 @@ body {
 
 
 /*====================================
-    Samsung Galaxy S4 portrait styles
+    Samsung Galaxy S5 portrait styles
 ======================================*/
 @media (max-width: 360px) {
   
