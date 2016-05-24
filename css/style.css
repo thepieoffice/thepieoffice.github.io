@@ -1,25 +1,43 @@
+/*====================================
+    Base Styles
+======================================*/
+
 body {
   background-color: rgb(20,18,19);
   overflow: hidden;
   font-family: helvetica, arial, sans-serif;
   color: white;
 }
+
+
+/* Classes for special use */
 .disable-selection {
-     -moz-user-select: none; /* Firefox */
-      -ms-user-select: none; /* Internet Explorer */
-   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
   -webkit-user-select: none; /* Chrome, Safari, and Opera */
   -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
-}
-.page-container {
-  position: absolute;
-  height: 100%;
-  width: 100%;
 }
 .pink-hover:hover {
   color: rgb(255,54,87);
   cursor: pointer;
 }
+.hidden {
+  visibility: hidden;
+}
+
+/* Styling for page frames */
+.page-container {
+  background-color: rgb(20,18,19);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+
+/* Landing Page */
 #banner-pic {
   position: absolute;
   height: 230px;
@@ -29,7 +47,7 @@ body {
   margin-left: -162.5px;
   margin-top: -115px;
 }
-#email-text {
+#landing-page-caption {
   color: white;
   font-size: 25px;
   position: absolute;
@@ -41,9 +59,19 @@ body {
   text-align: center;
   text-decoration: none;
 }
-#email-text:hover {
+#landing-page-caption:hover {
   color: rgb(255,54,87);
   cursor: default;
+}
+
+
+/* Buttons for page transitions */
+.video-link {
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -10px;
 }
 .fa-paper-plane-o {
   font-size: 20px;
@@ -52,14 +80,6 @@ body {
   right: 30px;
   margin-top: -8px;
 }
-
-.video-link {
-  font-size: 20px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -10px;
-}
 .fa-angle-left {
   position: absolute;
   font-size: 20px;
@@ -67,6 +87,23 @@ body {
   left: 30px;
   margin-top: -8px;
 }
+.fa-angle-up {
+  position: absolute;
+  font-size: 20px;
+  top: 30px;
+  left: 50%;
+  margin-left: -8px;
+}
+.fa-angle-down {
+  position: absolute;
+  font-size: 20px;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -8px;
+}
+
+
+/* Contact Page Icons*/
 .fa-envelope-o {
   color: white;
   position: absolute;
@@ -94,14 +131,9 @@ body {
   margin-top: -23px;
   margin-left: -25px;
 }
-.video-container {
-  background-color: rgb(20,18,19);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
+
+
+/* Video Styles */
 .video {
   margin: 0 auto;
   margin-top: 80px;
@@ -125,34 +157,15 @@ body {
 .description-text {
   font-size: 13px;
 }
-.fa-angle-up {
-  position: absolute;
-  font-size: 20px;
-  top: 30px;
-  left: 50%;
-  margin-left: -8px;
-}
 
-.fa-angle-down {
-  position: absolute;
-  font-size: 20px;
-  bottom: 30px;
-  left: 50%;
-  margin-left: -8px;
-}
 
+
+/*====================================
+    Smaller window styles
+======================================*/
 @media (max-width: 800px) {
-  .video {
-    width: 100%;
-    height: 40%;
-  }
-  .video-title {
-    font-size: 15px;
-  }
-  .video-description {
-    margin-top: 35px;
-    width: 80%;
-  }
+  
+  /* Buttons for page transitions */
   .fa-angle-down {
     position: relative;
     left: 0;
@@ -160,6 +173,9 @@ body {
     font-size: 20px;
     margin-left: -8px;
   }
+
+
+  /* Contact Page Icons*/
   .fa-envelope-o {
     top: 50%;
     left: 50%;
@@ -178,4 +194,43 @@ body {
     margin-top: -23px;
     margin-left: -25px;
   }
+
+
+  /* Video Styles */
+  .video {
+    width: 100%;
+    height: 40%;
+  }
+  .video-title {
+    font-size: 15px;
+  }
+  .video-description {
+    margin-top: 35px;
+    width: 80%;
+  }
+
+}
+
+
+/*====================================
+    IPHONE 6S portrait styles
+======================================*/
+@media (max-width: 414px) {
+
+}
+
+
+/*====================================
+    IPHONE 6 portrait styles
+======================================*/
+@media (max-width: 375px) {
+  
+}
+
+
+/*====================================
+    Samsung Galaxy S4 portrait styles
+======================================*/
+@media (max-width: 360px) {
+  
 }
