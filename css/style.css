@@ -34,13 +34,13 @@ body {
   text-align: center;
 }
 #langing-page {
-  display: none;
+  /*display: none;*/
 }
 .contact-page {
   display: none;
 }
 .video-container-1 {
-  /*display: none;*/
+  display: none;
 }
 .video-container-2 {
   display: none;
