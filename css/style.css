@@ -34,7 +34,7 @@ body {
   text-align: center;
 }
 #langing-page {
-  /*display: none;*/
+  display: none;
 }
 .contact-page {
   display: none;
@@ -43,7 +43,7 @@ body {
   display: none;
 }
 .video-container-2 {
-  display: none;
+  /*display: none;*/
 }
 
 
@@ -115,6 +115,13 @@ body {
   bottom: 30px;
   left: 50%;
   margin-left: -8px;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  background-color: rgb(255,54,87);
 }
 
 
